@@ -9,7 +9,7 @@ const app=express()
 
 app.use(cors(
     {
-        origin: 'https://full-stack-backend-part.onrender.com/',
+        origin: 'http://localhost:5177/',
         optionsSuccessStatus: 200, // some legacy browsers (IE11, various SmartTVs) choke on 204
          methods: "GET,POST,PUT,DELETE"
     }
